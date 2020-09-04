@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bigfamily">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".dev_details"
+            android:label="Developer"
+            android:parentActivityName=".booster"></activity>
+        <activity
+            android:name=".olan"
+            android:label="Yolanda"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".olin"
+            android:label="Violinda"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".vira"
+            android:label="Vira"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".dina"
+            android:label="Dina"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".retno"
+            android:label="Retno"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".dwi"
+            android:label="Dwi"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".vinda"
+            android:label="Lovinda"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".nurul"
+            android:label="Nurul"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".bambang"
+            android:label="Bayu"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".dito"
+            android:label="Dito"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".ibnu"
+            android:label="Ibnu"
+            android:parentActivityName=".booster" />
+        <activity
+            android:name=".dani"
+            android:label="Dani"
+            android:parentActivityName=".booster" />
+        <activity android:name=".booster" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
